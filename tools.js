@@ -134,3 +134,7 @@ export function findOverlaps(e1, e2){
     return overlap;
 }
 
+export function isNumber(value) 
+{
+   return !isNaN(value);
+}
